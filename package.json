@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/GotDadJoke/randomFunc-noExpress/issues"
   },
-  "homepage": "https://github.com/GotDadJoke/randomFunc-noExpress#readme"
+  "homepage": "https://github.com/GotDadJoke/randomFunc-noExpress#readme",
+  "devDependencies": {
+    "serverless-domain-manager": "^4.2.0"
+  }
 }

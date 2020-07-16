@@ -5,7 +5,7 @@ const options = {
     port: 443,
     path: '/',
     method: 'GET',
-    headers: {Accept: 'application/json'}
+    headers: {Accept: 'text/plain'}
 };
 
 
