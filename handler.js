@@ -21,7 +21,11 @@ exports.server = async (event) => {
             res.on('end', () => {
                 resolve({
                     statusCode: 200,
-                    body: dataString
+                    body: dataString,
+                    headers: {
+                        "Content-Type": "application/json",
+                        "Access-Control-Allow-Origin": "*" //CORS
+                    }
 
                 });
             });

@@ -23,7 +23,8 @@ functions:
       - http:
           path: /
           method: GET
-          cors: true
+          cors:
+            origin: "*"
 
 resources:
   Resources:
@@ -35,4 +36,4 @@ resources:
         Stage: ${self:provider.stage}
         RestApiId:
           Ref: ApiGatewayRestApi
-        DomainName: "dev.gotdadjoke.com"
+        DomainName: "dev-api.gotdadjoke.com"
